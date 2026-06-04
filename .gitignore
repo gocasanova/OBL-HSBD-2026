@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+
+# No subir carpeta descomprimida
+Data/DatosAbiertosDNC(2026-05)/
