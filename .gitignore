@@ -2,5 +2,11 @@
 __pycache__/
 .ipynb_checkpoints/
 
-# No subir carpeta descomprimida
-Data/DatosAbiertosDNC(2026-05)/
+# Datos y salidas generadas
+Data/
+DatosAbiertosDNC(2026-05)/
+*.zip
+salidas/
+
+# Backups locales
+*_backup_*.ipynb
