@@ -1,8 +1,8 @@
-hdfs dfs -mkdir -p /lnd
-hdfs dfs -mkdir -p /raw
-hdfs dfs -mkdir -p /ref
-hdfs dfs -mkdir -p /cur
-hdfs dfs -mkdir -p /anl
+hdfs dfs -mkdir -p /lnd/obligatorio_catastro/compressed
+hdfs dfs -mkdir -p /raw/obligatorio_catastro/dnc_2026_05
+hdfs dfs -mkdir -p /ref/obligatorio_catastro/dnc_2026_05
+hdfs dfs -mkdir -p /cur/obligatorio_catastro
+hdfs dfs -mkdir -p /anl/obligatorio_catastro
 
 /lnd: zona landing. Guarda el archivo comprimido original descargado desde la fuente.
 /raw: zona raw. Guarda los CSV descomprimidos sin modificar.
